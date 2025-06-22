@@ -1,0 +1,33 @@
+{
+  "name": "dineexplore-client",
+  "version": "1.0.0",
+  "description": "Frontend for DineExplore app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "front",
+    "restaurant",
+    "coffeeshop"
+  ],
+  "author": "Mahran Ben Khamsa",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "babel-loader": "^9.1.3",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1"
+  }
+}
